@@ -4,7 +4,6 @@ dependencies:
     - spacy
     - ipykernel
     - scipy
-    - numpy
-    - scikit-learn
-    - matplotlib
-    - pip-review
+    - pycryptodome
+    - pyperclip
+    - colorama
