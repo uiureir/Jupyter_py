@@ -5,5 +5,5 @@ dependencies:
     - ipykernel
     - scipy
     - pycryptodome
-    - pyperclip
-    - colorama
+    - cos_python_sdk_v5
+    - ibm-cos-sdk
