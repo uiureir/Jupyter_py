@@ -16,7 +16,7 @@ with tarfile.open("mytar.tar.gz",mode='w:gz') as mytar:
 	for root,dir,files in os.walk(os.getcwd()):
         for file in files:
 	        fullpath = os.path.join(root,file)
-            mytar.add(fullpath)
+	        mytar.add(fullpath)
 	print(os.listdir())
 	mytar.list()
 	mytar.extractall(path=os.getcwd()+"/test")
